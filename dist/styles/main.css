@@ -1,0 +1,20 @@
+header{
+    text-align: center;
+    background-color: white;
+    height: 60px;
+}
+.sapo{
+    display: flex;
+    color: black;
+}
+span{
+    color: green;
+}
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #1d1d1d;
+}
+.bixo{
+    background-color: gray;
+}
