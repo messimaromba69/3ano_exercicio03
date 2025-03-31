@@ -1,20 +1,75 @@
-header{
-    text-align: center;
-    background-color: white;
-    height: 60px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
 }
-.sapo{
-    display: flex;
-    color: black;
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
 }
+
 span{
     color: green;
 }
-nav a{
-    margin-left: 20px;
-    text-decoration: none;
-    color: #1d1d1d;
+.header h1 {
+    margin: 0;
+    font-size: 28px;
 }
-.bixo{
-    background-color: gray;
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    justify-content: end;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.cap {
+    background-image: url('../styles/main.css');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.cap h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cap button {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer h4 {
+    margin-bottom: 10px;
+}
+
+.mom{
+    color: #333;
 }
