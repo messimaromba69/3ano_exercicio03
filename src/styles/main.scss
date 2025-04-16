@@ -1,0 +1,530 @@
+$corPrincipal: #69B99D;
+$qudradoDeTras: #CCF4E6;
+$coresDoTitulo: #0F241D;
+$corDoTexto: #767676; 
+$fontePrincipal: Poppins, sans-serif;
+$fonteTitulo: DM Sans, sans-serif;
+$corDoTextoDoButton: #F9F9F9;
+$corDeFundo1: #FFFFFF;
+$corDeFundo2: #E4E4E4;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+span{
+    color: $corPrincipal;
+}
+
+h2{
+    color: $coresDoTitulo;
+    font-family: $fontePrincipal;
+    font-size: 1.5em;
+    margin-left: 1em;
+    flex-direction: row;
+    margin: 2px;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.1px solid $coresDoTitulo;
+    background-color: $corDeFundo2;
+}
+
+.opcoes{
+    display: flex;
+    margin-right: 10em;
+    font-family: $fonteTitulo;
+    font-size: 0.7em;
+}
+
+.boxHeader{
+    margin: 1em;
+
+}
+
+
+.boxtexto{
+    display: flex;
+    width: 50%;
+    height: 35em;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxTitulo{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 5em;
+}
+.boxSubTitulo{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+p{
+    margin: 0;
+    color: $corDoTexto;
+}
+
+.boxButton{
+    margin-top: 1em;
+    display: flex;
+    justify-items: center;
+    align-items: flex-start;
+
+}
+
+button{
+    width: 218px;
+    height: 50px;
+    background-color: $corPrincipal;
+    color: $corDoTextoDoButton;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    text-align: center;
+}
+.boxPrincipal{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: $corDeFundo2;
+    width: 100%;
+    border-bottom: 0.1px solid $corPrincipal;
+}
+.boximagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35em;
+    margin-right: 6em;
+    margin-left: 12em;
+
+}
+
+img{
+    display: flex;
+    width: 35em;
+    height: 22em;
+    border-radius: 4px;
+    margin: 0px;
+}
+
+.fundo{
+    background-color: $qudradoDeTras;
+    width: 35em;
+    height:20em ;
+    border-radius: 4px;
+    margin-top: -26em;
+    margin-left: 5em;
+}
+
+.boxCentro{
+    display: flex;
+    margin-top: 1em;
+    border-bottom: 0.1px solid $corPrincipal;
+}
+
+.boxEsquerda{
+    display: flex;
+    width: 50em;
+    height: 25em;
+}
+
+.fundoVerde2{
+    display: flex;
+    align-items: flex-start;
+    background-color: $qudradoDeTras;
+    width: 300px;
+    height: 350px;
+    border-radius: 4px;
+}
+
+.boxDaImg{
+    width: 30em;
+    height: 20em;
+    margin-top: 2em;
+}
+
+.boxDireita{
+    display: flex;
+    width: 50em;
+    height: 25em;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 10em;
+}
+
+.title{
+    margin-bottom: 1em;
+}
+
+.subtitle{
+    margin-top: 1em;
+}
+
+.boxService{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $corDeFundo2;
+    border-bottom: 0.1px solid $corPrincipal;
+}
+
+.boxdecima{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+.subtitulo{
+    margin-top: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+.meio{
+    margin-left: 5em;
+}
+
+h5{
+    font-family: $fonteTitulo;
+    color: $coresDoTitulo;
+    margin-top: 0.3em;
+}
+
+.boxdebaixo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    margin-top: 3em;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: $corDeFundo1;
+    border-bottom: 4px solid $corPrincipal;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.icones{
+    width: 5em;
+    height: 5em;
+}
+
+.iconeImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5em;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.boxDepoimentos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    margin-top: 3em;
+    flex-direction: column;
+    border-bottom: 0.1px solid $corPrincipal;
+}
+
+.box_Comentario{
+    width: 500px;
+    height: 264px;
+    background-color: $corDeFundo1;
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.boxPostagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+
+}
+
+.SubTitulo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+.parentese{
+    font-size: 1.9em;
+}
+
+.imgCirculo{
+    width: 3em;
+    height: 3em;
+    margin-left: 4em;
+    display: flex;
+    margin-top: 2em;
+}
+.circulo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    flex-direction: column;
+}
+
+
+.comentario{
+    width: 10em;
+    display: flex;
+    margin-top: 9px;
+    margin-left: 3px;
+    text-align: center;
+}
+
+.pontinhos{
+    width: 4em;
+    height: 1em;
+    display: flex;
+    margin-top: 4em;
+    margin-left: 3em;
+    margin-bottom: 1em;
+}
+
+.whats{
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+
+.icon-whatsapp:before {
+    content: "\ea93";
+    color: $corDeFundo1;
+    margin-right: 10px;
+}
+
+.icon-location:before {
+    content: "\e947";
+    color: $corPrincipal;
+    margin-right: 10px;
+}
+
+.icon-phone:before {
+    content: "\e942";
+    margin-right: 10px;
+}
+
+.icon-envelop:before {
+    content: "\e945";
+    margin-right: 10px;
+}
+
+.icon-youtube:before {
+    content: "\ea9d";
+    color: $corDeFundo1;
+}
+.icon-instagram:before {
+    content: "\ea92";
+    color: $corDeFundo1;
+}
+.icon-facebook:before {
+    content: "\ea90";
+    color: $corDeFundo1;
+}
+.boxRedesSociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 35em;
+    flex-direction: column;
+}
+
+.telefone{
+    margin-bottom: 2em;
+}
+
+.loc{
+    margin-bottom: 2em;
+}
+
+footer{
+    background-color: $corPrincipal;
+    width: 100%;
+    height: 35%;
+    display: flex;
+}
+
+.textoFooter{
+    color: $corDeFundo1;
+}
+
+.final{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.boxesquerda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25em;
+    height: 10em;
+    flex-direction: column;
+}
+
+.boxdireita{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 95em;
+    height: 10em;
+    margin-top: 1em;
+}
+
+.redes{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin-right: 4em;
+}
+
+.face{
+    width: 3em;
+    height: 3em;
+}
+
+.instagram{
+    width: 3em;
+    height: 3em;
+}
+
+.youtube{
+    width: 3em;
+    height: 3em;
+}
+.textodofooter{
+    color: $corDeFundo1;
+    margin-bottom: 3px;
+}
+.hamburger {
+    font-size: 15px;
+    background: none;
+    border: none;
+    color: $corPrincipal;
+    cursor: pointer;
+    display: none; 
+}
+.opcoes {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+}
+.boxHeader {
+    padding: 15px;
+}
+.boxHeader a {
+    text-decoration: none;
+    display: block;
+    font-family: $fonteTitulo;
+    font-size: 1.5em;
+}
+.boxHeader a:hover {
+    color: $corPrincipal;
+}
+.opcoes-mobile {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    background-color: $corDeFundo2;
+    display: none; 
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu-mobile {
+    flex-direction: column;
+    padding: 10px;
+}
+
+.opcoes-mobile.active {
+    display: flex;
+}
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .opcoes {
+        display: none; 
+    }
+
+    .close-menu {
+        display: none;
+        font-size: 15px;
+        background: none;
+        border: none;
+        color: $corPrincipal;
+        cursor: pointer;
+        text-align: end;
+        width: 100%;
+        margin-right: 1em;
+    }
+    .opcoes-mobile.active .close-menu {
+        display: block;
+    }
+}

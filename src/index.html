@@ -1,67 +1,268 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beauty Salon</title>
     <link rel="stylesheet" href="../dist/styles/main.css">
-    <body>
-    <header class="header">
-        <div class="container">
-            <h1>Beauty <span>Salon</h1>
-            <nav>
-                <ul class="nav-list">
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Depoimentos</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <section class="cap">
-        <div class="container">
-            <h2>Saúde natural para os seus cabelos</h2>
-            <img src="../img/re.jpg" alt="Profissional cuidando dos cabelos">
-            <button>Agendar agora</button>
-            <h4>Suade natural para cabelo</h4>
-        </div>
-    </section>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
-    <section class="mom">
-        <div class="container">
-            <h3>Sobre nós</h3>
-            <div class="mom-content">
-                <img src="../img/bb.png" alt="Equipe do salão">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna vitae urna dignissim facilisis. Nossa equipe é dedicada a proporcionar cuidados naturais para seus cabelos.</p>
+        <link rel="stylesheet" href="https://i.icomoon.io/public/temp/6c8f3e793f/UntitledProject/style.css">
+    <title>salão de beleza</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h2>beauty <span>Salon</span>.</h2>
+            <button class="hamburger" id="hamburger">
+                <span class="icon-menu">☰</span>
+            </button>
+            <div class="opcoes-mobile" id="opcoes-mobile">
+                <nav class="menu-mobile" >
+                    <button id="close-menu" class="close-menu">✖</button>
+                    <div class="boxHeader">
+                        <a>Inicio</a>
+                    </div>
+                    <div class="boxHeader">
+                        <a>Sobre</a>
+                    </div>
+                    <div class="boxHeader">
+                        <a>Serviços</a>
+                    </div>
+                    <div class="boxHeader">
+                        <a>Depoimentos</a>
+                    </div>
+                    <div class="boxHeader">
+                        <a>Contato</a>
+                    </div>
+                </nav>
             </div>
-        </div>
-    </section>
+            <div class="opcoes" id="opcoes">
+                <nav class="menu" >
+                    <div class="boxHeader">
+                        <a>Inicio</a>
+                    </div>
+                    <div class="boxHeader">
+                        <a>Sobre</a>
+                    </div>
+                    <div class="boxHeader">
+                        <a>Serviços</a>
+                    </div>
+                    <div class="boxHeader">
+                        <a>Depoimentos</a>
+                    </div>
+                    <div class="boxHeader">
+                        <a>Contato</a>
+                    </div>
+                </nav>
+            </div>
+            
+        </header>
+        <main>
+            <div class="boxPrincipal">
+                <div class="boxtexto">
+                    <div class="boxTitulo">
+                        <h2>Saúde natural para</h2>
+                        <h2>os seus cabelos</h2>
+                        <div class="boxSubTitulo">
+                            <p>Um salão exclusivo em São Paulo,</p>
+                            <p>especializado em tratamentos naturais.</p>
+                        </div>
+                        <div class="boxButton">
+                            <button>Agendar um horario</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="boximagem">
+                    <div class="boxImg">
+                        <img src="../src/img/imagem.png" alt="" srcset="">
+                        <div class="fundo"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="boxCentro">
+                <div class="boxEsquerda">
+                    <div class="fundoVerde2">
+                        <div class="boxDaImg">
+                            <img src="../src/img/imagem (1).png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <div class="boxDireita">
+                    <div class="title">
+                        <h2>Sobre Nós</h2>
+                    </div>
+                    <div class="subtitle">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sed autem iusto, atque aliquam architecto, blanditiis debitis nesciunt placeat, laudantium similique tenetur repellendus exercitationem maiores facilis molestias adipisci doloremque rem?</p>
+                    </div>
+                    <div class="subtitle">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla ipsum cupiditate at ducimus vero, architecto quidem placeat aspernatur reprehenderit, molestiae quis illum, facilis recusandae minima nesciunt temporibus quo? Aspernatur, aliquid.</p>
+                    </div>
+                    <div class="subtitle">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ipsa iure nulla repellat, doloribus perspiciatis possimus voluptas amet pariatur quam vel omnis facere asperiores quas architecto animi eius cupiditate fuga!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="boxService">
+                <div class="boxdecima">
+                    <div class="titulo">
+                        <h2>Serviços</h2>
+                    </div>
+                    <div class="subtitulo">
+                        <h5 class="meio">Com mais de 10 anos, o <span>Beautysalon</span>já</h5>
+                        <h5>conquistou clientes de inúmeros países com seus tratamentos</h5>
+                        <h5 class="meio">exclusivos e totalmente naturais</h5>
+                    </div>
+                </div>
+                <div class="boxdebaixo">
+                    <div class="row">
+                        <div class="box">
+                            <div class="iconeImg">
+                                <img class="icones" src="../src/img/imagem (3).png" alt="" srcset="">
+                            </div>
+                            <div class="titulo">
+                                <h2>Terapia Capilar</h2>
+                            </div>
+                            <div class="subtitulo">
+                                <p>terapia completa para couro</p>
+                                <p>cabeludo e fios, protegendo todos</p>
+                                <p>os tipos de cabelos, inclusive os</p>
+                                <p>longos e finos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="box">
+                            <div class="iconeImg">
+                                <img class="icones" src="../src/img/imagem (4).png" alt="" srcset="">
+                            </div>
+                            <div class="titulo">
+                                <h2>Cortes</h2>
+                            </div>
+                            <div class="subtitulo">
+                                <p>A nossa equipe é repleta de</p>
+                                <p>profissionais renomados, famosos</p>
+                                <p>por lançarem tendências com</p>
+                                <p>cortes diferenciados e clássicos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="box">
+                            <div class="iconeImg">
+                                <img class="icones" src="../src/img/imagem (5).png" alt="" srcset="">
+                            </div>
+                            <div class="titulo">
+                                <h2>Tratamentos</h2>
+                            </div>
+                            <div class="subtitulo">
+                                <p>O beautysalon conta com</p>
+                                <p>diversos tratamentos naturais e</p>
+                                <p>totalmente veganos, para</p>
+                                <p>qualquer tipo de cabelo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="boxDepoimentos">
+                <div class="row">
+                    <div class="boxtitulo">
+                        <div class="titulo">
+                            <h2>Depoimentos de quem já</h2>
+                            <h2>passou por aqui</h2>
+                    </div>
+                </div>
+                </div>
+                <div class="boxPostagem">
+                    <div class="box_Comentario">
+                        <div class="SubTitulo">
+                            <h5><span class="parentese">"</span>Eu sou cliente do Beautysalon há 5 anos e não troco</h5>
+                            <h5>por nada! Certamente meu cabelo mudou muito depois</h5>
+                            <h5>que comecei a tratar somente com produtos naturais e</h5>
+                            <h5>veganos. São profissionais incriveis e qualificados.</h5>
+                        </div>
+                        <div class="imgCirculo">
+                            <img class="circulo" src="../src/img/imagem (6).png" alt="">
+                            <div class="comentario">
+                                <p class="comentario">Wanessa Souza</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_Comentario">
+                        <div class="SubTitulo">
+                            <h5><span class="parentese">"</span>Minha mãe frequenta o salão há anos e me levou um dia</h5>
+                            <h5>para conhecer. Minha experiência foi incrível, eu continuo</h5>
+                            <h5>fazendo o a terapia capilar e isso salvou o meu cabelo.</h5>
+                            <h5>Adoro todos os profissionais do Beautysalon.</h5>
+                        </div>
+                        <div class="imgCirculo">
+                            <img class="circulo" src="../src/img" alt="">
+                            <div class="comentario">
+                                <p class="comentario">Luna Falcão</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="pontinhos" src="../src/img" alt="" srcset="">
+            </div>
+            <div class="boxPrincipal">
+                <div class="boxtexto">
+                    <div class="boxTitulo">
+                        <h2>Entre em contato</h2>
+                        <h2>com a gente!</h2>
+                        <div class="boxSubTitulo">
+                            <p>Entre em contato com a Beautysalon,</p>
+                            <p>queremos tirar suas dúvidas, ouvir suas</p>
+                            <p>críticas e sugestões.</p>
+                        </div>
+                        <div class="boxButton">
+                            <button><span class="icon-whatsapp"></span>Entrar em contato</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxRedesSociais">
+                    <div class="telefone">
+                        <p><span class="icon-phone"></span>11 99845-6754</p>
+                    </div>
+                    <div class="loc">
+                        <p><span class="icon-location"></span>R.Amauri Souza, 346</p>
+                    </div>
+                    <div class="email">
+                        <p><span class="icon-envelop"></span>contato@beautysalon.com</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="boxesquerda">
+                <h2 class="final">beauty <span class="textoFooter">salon</span>.</h2>
+                <h5 class="textodofooter">@2021 Beautysalon.</h5>
+                <h5 class="textodofooter">todos os direitos reservados.</h5>
+            </div>
+            <div class="boxdireita">
+                <div class="redes">
+                    <div class="instagram">
+                        <span class="icon-instagram"></span>
+                    </div>
+                    <div class="face">
+                        <span class="icon-facebook"></span>
+                    </div>
+                    <div class="youtube">
+                        <span class="icon-youtube"></span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 
-    <section class="pix">
-        <div class="container">
-            <h3>Serviços</h3>
-            <div class="pix-item">Tratamento Capilar</div>
-            <div class="pix-item">Cortes</div>
-            <div class="pix-item">Tratamentos Naturais</div>
-        </div>
-    </section>
-
-    <section class="popo">
-            <h3>Depoimentos</h3>
-            <p>"Excelente serviço! Recomendo muito." - Cliente 1</p>
-            <p>"Meus cabelos nunca estiveram tão saudáveis." - Cliente 2</p>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <h4>Entre em contato</h4>
-            <p>Email: contato@beautysalon.com</p>
-            <p>Telefone: (11) 1234-5678</p>
-        </div>
-    </footer>
+    <script src="./scripts/main.js"></script>
 </body>
+
 </html>
